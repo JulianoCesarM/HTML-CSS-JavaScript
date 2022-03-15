@@ -7,6 +7,6 @@ function Calcular(){
 
     var final = (np1+part1)*0.4 + ((np2*0.8+pluri*0.2)+part2)*0.6;
 
-    res.innerHTML = `Média das notas: <strong>${final}</strong>`;
+    res.innerHTML = `Média das notas: <strong>${final.toFixed(2)}</strong>`;
     
 }
